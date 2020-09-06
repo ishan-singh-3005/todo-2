@@ -3,6 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { IconButton } from '@material-ui/core';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import "./App.css";
 import Tour from 'reactour'
 
 export class TodoBanner extends Component {
@@ -31,8 +33,12 @@ export class TodoBanner extends Component {
                   <IconButton onClick={this.tourTrigger}>
                       <InfoOutlinedIcon/>
                   </IconButton>
-              </h4>               
-          
+                  <a href= "https://github.com/ishan-singh-3005/todo-app">
+                    <GitHubIcon className="git"/>
+                  </a>
+              </h4> 
+                           
+              
               <Tour
                   steps={steps}
                   isOpen={this.state.isTourOpen}
@@ -50,8 +56,11 @@ export class TodoBanner extends Component {
                     <IconButton onClick={this.tourTrigger}>
                         <InfoOutlinedIcon/>
                     </IconButton>
+                    <a href= "https://github.com/ishan-singh-3005/todo-app">
+                      <GitHubIcon className="git"/>
+                    </a>
                 </h4>               
-            
+                
                 <Tour
                     steps={steps}
                     isOpen={this.state.isTourOpen}
@@ -69,8 +78,11 @@ export class TodoBanner extends Component {
                     <IconButton onClick={this.tourTrigger}>
                         <InfoOutlinedIcon/>
                     </IconButton>
+                    <a href= "https://github.com/ishan-singh-3005/todo-app">
+                      <GitHubIcon className="git"/>
+                    </a>
                 </h4>               
-            
+                
                 <Tour
                     steps={steps}
                     isOpen={this.state.isTourOpen}
