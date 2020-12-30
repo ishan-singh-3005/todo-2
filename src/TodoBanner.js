@@ -33,7 +33,7 @@ export class TodoBanner extends Component {
                   <IconButton onClick={this.tourTrigger}>
                       <InfoOutlinedIcon/>
                   </IconButton>
-                  <a href= "https://github.com/ishan-singh-3005/todo-app">
+                  <a href= "https://github.com/ishan-singh-3005/">
                     <GitHubIcon className="git"/>
                   </a>
               </h4> 
